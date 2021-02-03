@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Carla Srebot's personal web page
 url: "https://carlasrebot.github.io"
 repository: "CarlaSrebot/carlasrebot.github.io"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "sunrise"
 search: false
 
 # Social Sharing
