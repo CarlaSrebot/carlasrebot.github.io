@@ -1,6 +1,6 @@
 ---
 title: 'Carla Srebot'
-layout: home
+layout: single
 author_profile: true
 excerpt: ' '
 header:
