@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Carla Srebot's personal web page
 url: "https://carlasrebot.github.io"
 repository: "CarlaSrebot/carlasrebot.github.io"
-minimal_mistakes_skin: "sunrise"
+minimal_mistakes_skin    : "contrast" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: false
 
 # Social Sharing
@@ -77,13 +77,8 @@ author:
   #I hold a B.A. in Economics [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/)."
   location: "Lima, Peru"
   email: "csrebot@gmail.com"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/CarlaSrebot"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/CarlaSrebot/"
+  github: "CarlaSrebot"
+  twitter: "CarlaSrebot"
 
 footer:
   links:
