@@ -89,6 +89,14 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CarlaSrebot/"
 
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    
 # Defaults
 defaults:
   # _posts
@@ -97,7 +105,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -108,7 +116,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
