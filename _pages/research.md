@@ -1,6 +1,10 @@
 ---
-title: "Research"
+title: 'Research'
 permalink: /research/
+excerpt: ' '
+header:
+  overlay_image: /assets/images/P001.JPG
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
 
