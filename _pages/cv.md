@@ -4,4 +4,4 @@ permalink: /cv/
 classes: wide
 ---
 
-[cv.pdf](/assets/files/cv.pdf){: .btn .btn--info .btn--lg}
+<iframe src="/assets/files/cv.pdf" width="100%" height="800"></iframe>
