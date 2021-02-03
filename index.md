@@ -5,8 +5,8 @@ layout: single
 author_profile: true
 excerpt: ' '
 header:
-  overlay_image: /assets/images/P1070955.JPG
-  overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/P001.JPG
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Welcome to my homepage! #
