@@ -8,7 +8,7 @@ classes: wide
 
 * **The impact of media coverage of femicides on violence reports.**
   [Carla Srebot](https://carlasrebot.github.io/).
-  _In progress._ \\
+  _In progress._ 
 * **Oil Spills and Mental Health: Some Evidence for Peru.**
   [Alberto Chong](https://aysps.gsu.edu/profile/alberto-chong/),
   [Carla Srebot](https://carlasrebot.github.io/).
@@ -27,7 +27,7 @@ classes: wide
   [Carla Srebot](https://carlasrebot.github.io/).
   _International Economics._
   October 2020. \\
-  [paper](https://www.sciencedirect.com/science/article/abs/pii/S211070172030086X){: .btn .btn--primary .btn--small}
+  [paper](https://www.sciencedirect.com/science/article/abs/pii/S211070172030086X){: .btn .btn--info .btn--lg}
 
 ## Theses
 
@@ -35,4 +35,4 @@ classes: wide
   [Carla Srebot](https://carlasrebot.github.io/),
   Yulia Valdivia.
   _Diploma thesis, Universidad del Pacífico._
-  July 2018. \\
+  July 2018.
