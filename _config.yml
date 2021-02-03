@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Carla Srebot"
-name: "Home"
+name: "Carla Srebot"
 email: "csrebot@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Carla Srebot's personal web page
@@ -30,7 +30,7 @@ twitter:
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: "Person"
-  name: "Carla Srebot"
+  name: "Home"
   links:
     - "https://twitter.com/CarlaSrebot"
     - "https://github.com/CarlaSrebot/"
