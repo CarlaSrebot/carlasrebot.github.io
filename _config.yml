@@ -30,7 +30,7 @@ twitter:
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: "Person"
-  name: "Home"
+  name: "Carla Srebot"
   links:
     - "https://twitter.com/CarlaSrebot"
     - "https://github.com/CarlaSrebot/"
