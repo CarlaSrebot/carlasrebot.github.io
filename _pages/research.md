@@ -20,7 +20,7 @@ classes: wide
   _Submitted for publication._
   December 2020.
   
-## Papers
+## Published and accepted papers
 
 * **Investment confidence and regional trade agreements with the United States.**
   [Alberto Chong](https://aysps.gsu.edu/profile/alberto-chong/),
