@@ -37,7 +37,9 @@ social:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+#remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+minimal_mistakes_skin    : "default" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 0 # amount of posts to show
@@ -74,6 +76,7 @@ author:
   #bio    : "I am a Peruvian economist. My fields of interest are development economics, behavioral economics and gender matters. 
   #I hold a B.A. in Economics [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/)."
   location: "Lima, Peru"
+  email: "csrebot@gmail.com"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -91,18 +94,19 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CarlaSrebot/"
 
+# Defaults
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: home
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
