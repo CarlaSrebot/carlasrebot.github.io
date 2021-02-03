@@ -4,7 +4,7 @@ align: 'center'
 layout: single
 author_profile: true
 header:
-  overlay_image: /assets/images/IMG_2038.JPG
+  overlay_image: /assets/images/P1070955.JPG
   overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
 ---
 
