@@ -1,7 +1,5 @@
 ---
-<p align="center">
 title: 'Carla Srebot'
-</p>
 layout: single
 author_profile: true
 header:
