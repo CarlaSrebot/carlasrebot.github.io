@@ -70,7 +70,7 @@ plugins:
 
 author:
   name   : "Carla Srebot"
-  avatar : "{{ user.avatar_url }}" class="circle mb-3" style="max-width: 100%"
+  avatar : "{{ user.avatar_url }}"
   #bio    : "I am a Peruvian economist. My fields of interest are development economics, behavioral economics and gender matters. 
   #I hold a B.A. in Economics [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/)."
   location: "Lima, Peru"
