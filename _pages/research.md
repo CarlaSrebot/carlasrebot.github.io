@@ -38,6 +38,6 @@ classes: wide
 
 * **Do large oil spills have effects on labor outcomes? The Peruvian case.**
   [Carla Srebot](https://carlasrebot.github.io/),
-  Yulia Valdivia.
+  [Yulia Valdivia](https://pe.linkedin.com/in/yulia-valdivia-rivera-30596).
   _Diploma thesis, Universidad del Pacífico._
   July 2018.
