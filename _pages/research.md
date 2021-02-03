@@ -31,7 +31,7 @@ classes: wide
   [Carla Srebot](https://carlasrebot.github.io/).
   _International Economics._
   October 2020. \\
-  [paper](https://www.sciencedirect.com/science/article/abs/pii/S211070172030086X){:btn btn-outline-primary my-1 mr-1 btn-sm}
+  [paper](https://www.sciencedirect.com/science/article/abs/pii/S211070172030086X){:.btn .btn--info .btn--lg}
 
 
 
