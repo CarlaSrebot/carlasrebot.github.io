@@ -9,7 +9,6 @@ header:
 ---
 
 # Welcome to my homepage! #
-
 I am a Peruvian economist. I hold a B.A. in Economics from [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/). 
 
 ## Interests ##
