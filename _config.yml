@@ -1,27 +1,31 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: "Home"
-name: "Carla Srebot"
-email: "csrebot@gmail.com"
-description: >- # this means to ignore newlines until "baseurl:"
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes@4.18.1"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Home"
+title_separator          : "|"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Carla Srebot"
+description              : >- # this means to ignore newlines until "baseurl:"
   Carla Srebot's personal web page
 url: "https://carlasrebot.github.io"
 repository: "CarlaSrebot/carlasrebot.github.io"
-minimal_mistakes_skin    : "dark" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: false
+email: "csrebot@gmail.com"
 
 # Social Sharing
 twitter:
@@ -35,16 +39,39 @@ social:
     - "https://twitter.com/CarlaSrebot"
     - "https://github.com/CarlaSrebot/"
 
-# Build settings
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 0 # amount of posts to show
-paginate_path: /page:num/
-#timezone: America/New_York
+# Site Author
+author:
+  name   : "Carla Srebot"
+  avatar : "/assets/images/csrebot.jpg"
+  bio    : " "
+  #"I am a Peruvian economist. My fields of interest are development economics, behavioral economics and gender matters. 
+  #I hold a B.A. in Economics [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/)."
+  location: "Lima, Peru"
+  email: "csrebot@gmail.com"
+  github: "CarlaSrebot"
+  twitter: "CarlaSrebot"
 
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:csrebot@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/CarlaSrebot"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CarlaSrebot/"
+
+# Reading Files
 include:
   - _pages
 
@@ -60,6 +87,38 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 3 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Lima # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -69,26 +128,49 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Carla Srebot"
-  avatar : "/assets/images/csrebot.jpg"
-  bio    : " "
-  #"I am a Peruvian economist. My fields of interest are development economics, behavioral economics and gender matters. 
-  #I hold a B.A. in Economics [Universidad del Pacífico](https://www.up.edu.pe/en/), and a M.Sc. in Economics from [Universidad de San Andrés](https://udesa.edu.ar/)."
-  location: "Lima, Peru"
-  email: "csrebot@gmail.com"
-  github: "CarlaSrebot"
-  twitter: "CarlaSrebot"
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/CarlaSrebot"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/CarlaSrebot/"
-
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+  
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+ 
 # Defaults
 defaults:
   # _posts
@@ -109,10 +191,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
