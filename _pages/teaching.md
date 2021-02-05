@@ -8,8 +8,9 @@ header:
 classes: wide
 ---
 
-At the Department of Economics, Universidad de San Andrés, I was a teaching assistant
-for the following courses:
+##### Universidad de San Andrés
+###### Mar - Dec 2020
+At the Department of Economics, I was a teaching assistant for the following courses:
 
 * [Big data](https://bigdataudesa.weebly.com/) 
 * Econometrics
