@@ -8,10 +8,12 @@ header:
 classes: wide
 ---
 
-<div id="textbox">
-  <p class="alignleft"><strong>Universidad de San Andrés</strong></p>
-  <p class="alignright"><i>Mar - Dec 2020</i></p>
-</div>
+<p style="text-align:left;">
+    <strong>Universidad de San Andrés</strong>
+    <span style="float:right;">
+        <i>Mar - Dec 2020</i>
+    </span>
+</p>
 
 At the Department of Economics, I was a teaching assistant for the following courses:
 
