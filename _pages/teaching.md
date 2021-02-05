@@ -7,9 +7,7 @@ header:
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
-
-## Universidad de San Andrés ## 
-<p style="text-align:right;">Mar - Dec 2020</p>
+<h2>Universidad de San Andrés</h2> <p style="text-align:right;">Mar - Dec 2020</p>
 
 At the Department of Economics, I was a teaching assistant for the following courses:
 
