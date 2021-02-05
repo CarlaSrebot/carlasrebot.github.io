@@ -9,12 +9,12 @@ classes: wide
 ---
 
 <p style="text-align:left;">
-    <h2>Universidad de San Andrés</h2>
+    <strong>Universidad de San Andrés</strong>
     <span style="float:right;">
         <i>Mar - Dec 2020</i>
     </span>
 </p>
-
+---
 At the Department of Economics, I was a teaching assistant for the following courses:
 
 * [Big data](https://bigdataudesa.weebly.com/) 
