@@ -8,7 +8,8 @@ header:
 classes: wide
 ---
 
-## Universidad de San Andrés ## <p style="text-align:right;">Mar - Dec 2020</p>
+## Universidad de San Andrés ## 
+<p style="text-align:right;">Mar - Dec 2020</p>
 
 At the Department of Economics, I was a teaching assistant for the following courses:
 
