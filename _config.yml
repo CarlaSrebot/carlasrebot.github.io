@@ -76,6 +76,7 @@ plugins:
   - jekyll-include-cache
 
 # Site Author
+round-avatar: false
 author:
   name    : "Carla Srebot"
   avatar  : "/assets/images/csrebot.jpg"
