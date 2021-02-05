@@ -9,7 +9,7 @@ classes: wide
 ---
 
 <div id="textbox">
-  <p class="alignleft"><strong>niversidad de San Andrés</strong></p>
+  <p class="alignleft"><strong>Universidad de San Andrés</strong></p>
   <p class="alignright"><i>Mar - Dec 2020</i></p>
 </div>
 
