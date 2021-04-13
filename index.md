@@ -1,5 +1,4 @@
 ---
-title: 'Carla Srebot'
 layout: single
 author_profile: true
 excerpt: ' '
