@@ -10,9 +10,6 @@ classes: wide
 
 ## Work In Progress
 
-* **The impact of media coverage of femicides on violence reports.**
-  [Carla Srebot](https://carlasrebot.github.io/).
-  _In progress._ 
 * **Oil Spills and Mental Health: Some Evidence for Peru.**
   [Alberto Chong](https://aysps.gsu.edu/profile/alberto-chong/),
   [Carla Srebot](https://carlasrebot.github.io/).
@@ -36,6 +33,11 @@ classes: wide
 
 ## Theses
 
+* **Femicide media coverage and violence reporting behavior.**
+  [Carla Srebot](https://carlasrebot.github.io/).
+  _Master's thesis, Universidad de San Andrés._
+  July 2021. 
+  
 * **Do large oil spills have effects on labor outcomes? The Peruvian case.**
   [Carla Srebot](https://carlasrebot.github.io/),
   [Yulia Valdivia](https://pe.linkedin.com/in/yulia-valdivia-rivera-30596).
